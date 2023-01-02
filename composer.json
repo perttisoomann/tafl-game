@@ -10,8 +10,7 @@
     },
     "authors": [
         {
-            "name": "Pert",
-            "email": "pertti.soomann@gmail.com"
+            "name": "Pertti Soomann"
         }
     ],
     "require": {
@@ -19,5 +18,11 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit --testdox --color tests"
+    },
+    "scripts-descriptions": {
+        "test": "Run unit tests"
     }
 }
